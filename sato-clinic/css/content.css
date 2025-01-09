@@ -1,0 +1,797 @@
+@charset "UTF-8";
+/* -----------------診察内容---------------------------------- */
+
+.content h2 {
+  font-size: 47px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: lighter;
+  margin: 110px 0 70px 110px;
+}
+.title-content {
+  position: relative;
+}
+.water-circle2 {
+  position: absolute;
+  top: -55px;
+  left: 65px;
+  z-index: -2;
+  background: linear-gradient(to right, #a5d1eb, #1e61d4);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  opacity: 65%;
+}
+
+.content .title-content p {
+  font-size: 16px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 35px;
+  text-align: center;
+}
+
+/* --------------診療内容7項目flex------------------------------ */
+
+.flex-container3 {
+  display: flex;
+  justify-content: center;
+}
+.left3 {
+  margin-top: 45px;
+}
+.right3 {
+  margin-top: 250px;
+}
+.flex-item3 {
+  margin-top: 85px;
+}
+
+/* -------01-------------------------------------------------- */
+
+.number01 {
+  position: relative;
+}
+.number01 .number {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  font-size: 90px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  opacity: 25%;
+}
+.number01 .treatment-title {
+  position: absolute;
+  top: 80px;
+  left: 85px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  border-bottom: #000 1px solid;
+  padding-bottom: 5px;
+}
+.number01 .treatment-statement {
+  position: absolute;
+  top: 143px;
+  left: 23px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 20px;
+  text-align: center;
+}
+.number01 .icon {
+  position: absolute;
+  top: 252px;
+  left: 140px;
+}
+
+/* --------02----------------------------------------------- */
+
+.number02 {
+  position: relative;
+}
+
+.number02 .number {
+  position: absolute;
+  top: -32px;
+  left: 200px;
+  font-size: 90px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  opacity: 25%;
+}
+.number02 .treatment-title {
+  position: absolute;
+  top: 82px;
+  left: 32px;
+  font-size: 26px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: bold;
+  border-bottom: #000 1px solid;
+  padding-bottom: 5px;
+}
+.number02 .treatment-statement {
+  position: absolute;
+  top: 135px;
+  left: 31px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 20px;
+  text-align: center;
+}
+.number02 .icon {
+  position: absolute;
+  top: 245px;
+  left: 148px;
+}
+
+/* --------03----------------------------------------------- */
+.number03 {
+  position: relative;
+}
+
+.number03 .number {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  font-size: 90px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  opacity: 25%;
+}
+.number03 .treatment-title {
+  position: absolute;
+  top: 80px;
+  left: 76px;
+  font-size: 28px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: bold;
+  border-bottom: #000 1px solid;
+  padding-bottom: 5px;
+}
+.number03 .treatment-statement {
+  position: absolute;
+  top: 143px;
+  left: 30px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 20px;
+  text-align: center;
+}
+.number03 .icon {
+  position: absolute;
+  top: 245px;
+  left: 140px;
+}
+
+/* -----------04------------------------------------------- */
+
+.number04 {
+  position: relative;
+}
+
+.number04 .number {
+  position: absolute;
+  top: -30px;
+  left: 200px;
+  font-size: 90px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  opacity: 25%;
+}
+.number04 .treatment-title {
+  position: absolute;
+  top: 79px;
+  left: 79px;
+  font-size: 28px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: bold;
+  border-bottom: #000 1px solid;
+  padding-bottom: 5px;
+}
+.number04 .treatment-statement {
+  position: absolute;
+  top: 140px;
+  left: 22px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 20px;
+  text-align: center;
+}
+.number04 .icon {
+  position: absolute;
+  top: 255px;
+  left: 135px;
+}
+/* ---------05-------------------------------------------- */
+.number05 {
+  position: relative;
+}
+
+.number05 .number {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  font-size: 90px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  opacity: 25%;
+}
+.number05 .treatment-title {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  font-size: 28px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: bold;
+  border-bottom: #000 1px solid;
+  padding-bottom: 5px;
+}
+.number05 .treatment-statement {
+  position: absolute;
+  top: 140px;
+  left: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 20px;
+  text-align: center;
+}
+.number05 .icon {
+  position: absolute;
+  top: 260px;
+  left: 125px;
+}
+/* ----------06-------------------------------------------- */
+.number06 {
+  position: relative;
+}
+
+.number06 .number {
+  position: absolute;
+  top: -30px;
+  left: 200px;
+  font-size: 90px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  opacity: 25%;
+}
+.number06 .treatment-title {
+  position: absolute;
+  top: 77px;
+  left: 115px;
+  font-size: 30px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: bold;
+  border-bottom: #000 1px solid;
+  padding-bottom: 5px;
+}
+.number06 .treatment-statement {
+  position: absolute;
+  top: 138px;
+  left: 28px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 20px;
+  text-align: center;
+}
+.number06 .icon {
+  position: absolute;
+  top: 255px;
+  left: 138px;
+}
+/* ------------07------------------------------------------- */
+.number07 {
+  position: relative;
+}
+
+.number07 .number {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  font-size: 90px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  opacity: 25%;
+}
+.number07 .treatment-title {
+  position: absolute;
+  top: 77px;
+  left: 115px;
+  font-size: 30px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: bold;
+  border-bottom: #000 1px solid;
+  padding-bottom: 5px;
+}
+.number07 .treatment-statement {
+  position: absolute;
+  top: 143px;
+  left: 27px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 20px;
+  text-align: center;
+}
+.number07 .icon {
+  position: absolute;
+  top: 255px;
+  left: 130px;
+}
+
+/* ------------イメージ画像と模様--------------------------------- */
+
+.treatment1 {
+  position: relative;
+}
+.treatment3 {
+  position: relative;
+}
+
+.green-1 {
+  position: absolute;
+  z-index: -2;
+  top: 160px;
+  left: 230px;
+  width: 242px;
+  height: 242px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 50%;
+}
+.green-2 {
+  position: absolute;
+  z-index: -2;
+  top: -60px;
+  left: 330px;
+  width: 125px;
+  height: 125px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 55%;
+}
+.green-3 {
+  position: absolute;
+  z-index: -2;
+  top: 50px;
+  left: 560px;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(to right, #8dc21f, #008540);
+  border-radius: 50%;
+  opacity: 55%;
+}
+.green-4 {
+  position: absolute;
+  z-index: -2;
+  top: 205px;
+  left: -180px;
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(to right, #8dc21f, #008540);
+  border-radius: 50%;
+  opacity: 28%;
+}
+
+/* ---------------電話プレート--------------------------------- */
+
+.plate {
+  position: relative;
+  height: 370px;
+}
+.plate .telephoneplate-2 {
+  position: absolute;
+  top: 150px;
+  left: 210px;
+}
+.plate .telephonenumber-2 p {
+  position: absolute;
+  top: 231px;
+  left: 390px;
+  font-family: 小塚ゴシック Pr6N R;
+  color: #fff;
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.plate .onephrase-2 p {
+  position: absolute;
+  top: 170px;
+  left: 262px;
+  font-family: ヒラギノ丸ゴ Pro W4;
+  font-size: 15px;
+  width: 480px;
+  color: #fff;
+  border-bottom: #fff 1px solid;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+.plate .telicon-2 img {
+  position: absolute;
+  top: 225px;
+  left: 300px;
+  width: 20px;
+}
+.test-green-rectangle {
+  position: absolute;
+  top: 110px;
+  left: 237px;
+  margin: 40px 0;
+  border-radius: 6px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  width: 530px;
+  height: 130px;
+  box-shadow: 2.9px 2.9px 2.9px #888888;
+}
+
+/* ----------------スタッフ紹介--------------------------------------------------------------------- */
+
+.title-content-stuff {
+  position: relative;
+}
+
+.title-content-stuff h2 {
+  font-size: 47px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: lighter;
+  margin: 110px 0 70px 110px;
+}
+.title-content-stuff p {
+  font-size: 16px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 65px;
+}
+
+/* --------------メンバー詳細-------------------------------------------------*/
+
+/* ------佐藤太郎--------- */
+
+.taro {
+  position: relative;
+  height: 850px;
+}
+.taro .backplate {
+  position: absolute;
+  z-index: -5;
+  top: 120px;
+  left: 30px;
+}
+.taro .whitesquare {
+  position: absolute;
+  height: 65px;
+  width: 140px;
+  background-color: #ffffff;
+  top: 385px;
+  left: 85px;
+  opacity: 75%;
+  border-radius: 5px;
+}
+.taro .degree-name p {
+  position: absolute;
+  top: 388px;
+  left: 109px;
+  font-family: Zen Kurenaido;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: bold;
+}
+.taro .keireki p {
+  position: absolute;
+  top: 170px;
+  left: 380px;
+  line-height: 24px;
+  font-size: 17px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 23px;
+}
+
+.taro .expart p {
+  position: absolute;
+  top: 340px;
+  left: 380px;
+  font-size: 17px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 24px;
+}
+.taro .message p {
+  position: absolute;
+  top: 517px;
+  left: 245px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 3px;
+}
+.taro .message-statement p {
+  position: absolute;
+  top: 585px;
+  left: 145px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-size: 20px;
+  line-height: 32px;
+}
+.taro .underline {
+  position: absolute;
+  top: 512px;
+  left: 202px;
+}
+
+/* ---------鈴木真里--------- */
+.mari {
+  position: relative;
+  height: 600px;
+}
+.mari .backplate {
+  position: absolute;
+  z-index: -3;
+  right: 30px;
+}
+.mari .whitesquare {
+  position: absolute;
+  height: 65px;
+  width: 140px;
+  background-color: #fff;
+  top: 251px;
+  right: 105px;
+  opacity: 75%;
+  border-radius: 5px;
+}
+.mari .degree-name p {
+  position: absolute;
+  top: 256px;
+  right: 130px;
+  font-family: Zen Kurenaido;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: bold;
+}
+.mari .keireki p {
+  position: absolute;
+  left: 310px;
+  top: 35px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 15px;
+}
+.mari .expart p {
+  position: absolute;
+  top: 196px;
+  left: 310px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+}
+.mari .message {
+  position: absolute;
+  top: 390px;
+  left: 650px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 3px;
+}
+.mari .message-statement p {
+  position: absolute;
+  top: 468px;
+  left: 525px;
+  font-size: 20px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 32px;
+}
+.mari .underline {
+  position: absolute;
+  top: 385px;
+  left: 615px;
+}
+
+/* ---------田中和彦----------------------------------- */
+.kazuhiko {
+  position: relative;
+  height: 850px;
+}
+.kazuhiko .backplate {
+  position: absolute;
+  z-index: -5;
+  top: 120px;
+  left: 30px;
+}
+.kazuhiko .whitesquare {
+  position: absolute;
+  height: 65px;
+  width: 140px;
+  background-color: #fff;
+  top: 380px;
+  left: 90px;
+  opacity: 75%;
+  border-radius: 5px;
+}
+.kazuhiko .degree-name p {
+  position: absolute;
+  top: 385px;
+  left: 117px;
+  font-family: Zen Kurenaido;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: bold;
+}
+.kazuhiko .keireki p {
+  position: absolute;
+  top: 160px;
+  left: 380px;
+  line-height: 24px;
+  font-size: 17px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 19px;
+}
+.kazuhiko .expart p {
+  position: absolute;
+  top: 312px;
+  left: 380px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+}
+.kazuhiko .message {
+  position: absolute;
+  top: 510px;
+  left: 250px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 3px;
+}
+.kazuhiko .message-statement p {
+  position: absolute;
+  top: 575px;
+  left: 108px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-size: 19px;
+  line-height: 32px;
+}
+.kazuhiko .underline {
+  position: absolute;
+  top: 505px;
+  left: 208px;
+}
+
+/* --------高橋由美----------------------------------- */
+.yumi {
+  position: relative;
+  height: 740px;
+}
+.yumi .backplate {
+  position: absolute;
+  z-index: -3;
+  right: 28px;
+}
+.yumi .whitesquare {
+  position: absolute;
+  height: 65px;
+  width: 140px;
+  background-color: #fff;
+  top: 247px;
+  right: 105px;
+  opacity: 75%;
+  border-radius: 5px;
+}
+.yumi .degree-name p {
+  position: absolute;
+  top: 252px;
+  right: 129px;
+  font-family: Zen Kurenaido;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: bold;
+}
+.yumi .keireki p {
+  position: absolute;
+  left: 310px;
+  top: 45px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 24px;
+}
+.yumi .expart p {
+  position: absolute;
+  top: 195px;
+  left: 310px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+}
+.yumi .message {
+  position: absolute;
+  top: 385px;
+  left: 650px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 3px;
+}
+.yumi .message-statement p {
+  position: absolute;
+  top: 465px;
+  left: 527px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-size: 20px;
+  line-height: 32px;
+}
+.yumi .underline {
+  position: absolute;
+  top: 385px;
+  left: 615px;
+}
+
+/* ---------山本花----------------------------------- */
+.hana {
+  position: relative;
+  height: 720px;
+}
+.hana .backplate {
+  position: absolute;
+  z-index: -3;
+  left: 30px;
+}
+.hana .whitesquare {
+  position: absolute;
+  height: 65px;
+  width: 140px;
+  background-color: #fff;
+  top: 250px;
+  left: 90px;
+  opacity: 75%;
+  border-radius: 5px;
+}
+.hana .degree-name p {
+  position: absolute;
+  top: 255px;
+  left: 126px;
+  font-family: Zen Kurenaido;
+  font-size: 15px;
+  text-align: center;
+  line-height: 27px;
+  font-weight: bold;
+}
+.hana .keireki p {
+  position: absolute;
+  left: 380px;
+  top: 43px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 24px;
+}
+.hana .expart p {
+  position: absolute;
+  top: 195px;
+  left: 380px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+}
+.hana .message {
+  position: absolute;
+  top: 395px;
+  left: 250px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  padding-bottom: 3px;
+}
+.hana .message-statement p {
+  position: absolute;
+  top: 470px;
+  left: 103px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-size: 20px;
+  line-height: 32px;
+}
+.hana .underline {
+  position: absolute;
+  top: 390px;
+  left: 207px;
+}
+
+/* ----------span微調整--------------------------------------- */
+.big {
+  font-size: 19px;
+  font-weight: bold;
+}
+.name-bold {
+  font-size: 22px;
+}
+
+.pink-circle {
+  width: 356px;
+  height: 356px;
+  border-radius: 50%;
+  background-color: #fcd2e6;
+}
+.blue-circle {
+  width: 356px;
+  height: 356px;
+  border-radius: 50%;
+  background-color: #c1f0ff;
+}

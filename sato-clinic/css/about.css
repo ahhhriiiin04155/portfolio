@@ -1,0 +1,321 @@
+@charset "UTF-8";
+.title-content h2 {
+  font-size: 47px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-weight: lighter;
+  margin: 110px 0 55px 110px;
+}
+.title-content {
+  position: relative;
+}
+.title-content p {
+  font-size: 16px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 35px;
+  text-align: center;
+}
+.title-content .about-image1 {
+  text-align: center;
+  margin: 85px 0 130px 0;
+}
+.green-big1 {
+  position: absolute;
+  z-index: -2;
+  top: -30px;
+  left: 580px;
+}
+.green-small {
+  position: absolute;
+  z-index: -3;
+  top: 80px;
+  left: 470px;
+}
+.green-big2 {
+  position: absolute;
+  top: 430px;
+  left: 80px;
+  z-index: -3;
+}
+
+/* ---------------------------------------6項目--------------------------------- */
+
+.six-title {
+  position: relative;
+}
+.six-title img {
+  position: absolute;
+  z-index: -2;
+  top: -16px;
+  left: -1px;
+  width: 46px;
+}
+.six-title .pipe img {
+  position: absolute;
+  width: 400px;
+  opacity: 50%;
+  z-index: -10;
+  left: 31.5px;
+  top: -80px;
+}
+
+.six h3 {
+  font-size: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.six p {
+  font-size: 17px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 27px;
+  margin-bottom: 214px;
+  margin-left: 24px;
+}
+.bold-word {
+  font-weight: bold;
+}
+.about-image2 {
+  position: relative;
+}
+.about-image2 {
+  text-align: center;
+  margin: 85px 0 210px 0;
+}
+.about-image2 .green-big1 {
+  position: absolute;
+  top: 60px;
+  right: 160px;
+}
+.about-image2 .green-big2 {
+  position: absolute;
+  top: -150px;
+}
+.about-image2 .green-small {
+  position: absolute;
+  top: -20px;
+  left: 21px;
+}
+
+/* ----------------------------子供と老人-------------------------------- */
+
+.bold2 {
+  font-weight: bold;
+}
+
+.kids {
+  position: relative;
+}
+.kids p {
+  position: absolute;
+  top: -185px;
+  left: 170px;
+}
+.kids img {
+  position: absolute;
+  top: -198px;
+  left: 85px;
+}
+.elderly {
+  position: relative;
+  height: 85px;
+}
+.elderly p {
+  position: absolute;
+  top: -135px;
+  left: 170px;
+}
+
+.elderly img {
+  position: absolute;
+  top: -147px;
+  left: 85px;
+}
+/* ------------------------------------7項目------------------------------------------- */
+
+.seven-title {
+  position: relative;
+}
+.seven-title img {
+  position: absolute;
+  z-index: -2;
+  top: -60px;
+  left: -20px;
+}
+.seven-title .seven-leaf img {
+  position: absolute;
+  width: 80px;
+  top: -35px;
+  left: -4px;
+}
+.seven-title .seven-icon {
+  position: absolute;
+  top: 335px;
+  left: 400px;
+}
+.seven-title .bar {
+  position: absolute;
+  z-index: -5;
+  top: 330px;
+  left: 450px;
+  opacity: 50%;
+}
+.seven-title .bar2 {
+  position: absolute;
+  z-index: -5;
+  opacity: 50%;
+  bottom: 3400px;
+  left: 450px;
+}
+
+.seven h3 {
+  font-size: 24px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  border-bottom: 1px #000 solid;
+  width: 870px;
+  padding-bottom: 2px;
+  margin-left: 10px;
+}
+.seven p {
+  font-size: 17px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  line-height: 27px;
+  margin: 20px 0 490px 24px;
+}
+.large {
+  font-size: 42px;
+}
+
+/* ----------------------------電話--------------------------------- */
+
+.tel-container {
+  position: relative;
+  height: 250px;
+}
+
+.telephonenumber {
+  position: absolute;
+  top: 10px;
+  left: 390px;
+  font-family: 小塚ゴシック Pr6N R;
+  color: #fff;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+.onephrase {
+  position: absolute;
+  top: -48px;
+  left: 262px;
+  font-family: ヒラギノ丸ゴ Pro W4;
+  font-size: 15px;
+  width: 480px;
+  color: #fff;
+  border-bottom: #fff 1px solid;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.telicon img {
+  position: absolute;
+  top: 1px;
+  left: 300px;
+  width: 20px;
+}
+
+.cap-waterdrop {
+  position: absolute;
+  z-index: -2;
+  top: -11px;
+  left: -1px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #c4e7ff;
+}
+.water-circle2 {
+  position: absolute;
+  top: -55px;
+  left: 53px;
+  z-index: -2;
+  background: linear-gradient(to right, #a5d1eb, #1e61d4);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  opacity: 65%;
+}
+.test-green-rectangle {
+  position: absolute;
+  top: -109px;
+  left: 237px;
+  margin: 40px 0;
+  border-radius: 6px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  width: 530px;
+  height: 130px;
+  box-shadow: 2.9px 2.9px 2.9px #888888;
+}
+.green-1 {
+  position: absolute;
+  z-index: -2;
+  top: 10px;
+  left: 630px;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 30%;
+}
+.green-2 {
+  position: absolute;
+  z-index: -2;
+  top: 380px;
+  left: 50px;
+  width: 380px;
+  height: 380px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 48%;
+}
+.green-3 {
+  position: absolute;
+  z-index: -2;
+  top: 150px;
+  left: 560px;
+  width: 110px;
+  height: 110px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 65%;
+}
+.green-4 {
+  position: absolute;
+  z-index: -2;
+  top: 100px;
+  left: 630px;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 51%;
+}
+.green-5 {
+  position: absolute;
+  z-index: -2;
+  top: -150px;
+  left: 50px;
+  width: 380px;
+  height: 380px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 30%;
+}
+.green-6 {
+  position: absolute;
+  z-index: -2;
+  top: 30px;
+  left: 820px;
+  width: 110px;
+  height: 110px;
+  background: linear-gradient(to right, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 65%;
+}

@@ -1,0 +1,420 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* -------------------------ヘッダー------------------------------- */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+h1 img {
+  width: 300px;
+  margin: 10px;
+}
+
+nav ul {
+  padding: 22px 0;
+  margin-top: 40px;
+  background: linear-gradient(to bottom, #8dc21f, #008742);
+  opacity: 92%;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+ul li a {
+  font-family: ヒラギノ丸ゴ ProN W4;
+  color: #fff;
+  text-decoration: none;
+  padding: 23px 0;
+  cursor: default;
+}
+ul li a:hover {
+  color: #ac19cd;
+}
+
+ul li {
+  border-right: #fff 1px solid;
+  padding: 0 50px 0 42px;
+}
+ul li:last-child {
+  border-right: none;
+}
+
+.telephone {
+  font-size: 24px;
+  padding-left: 3px;
+}
+.telephone:before {
+  content: url(../images/telicon_03.png);
+  padding: 10px;
+  position: relative;
+  top: 7px;
+}
+.topview {
+  width: 1002px;
+  margin: -2px 0 0 -2px;
+  height: 390px;
+}
+.top p {
+  opacity: 89%;
+  color: #fff;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-size: 13px;
+  background: linear-gradient(to bottom, #8dc21f, #008742);
+  border-bottom-left-radius: 9px;
+  padding: 10px 17px 0px 17px;
+}
+.catchcopy p {
+  position: absolute;
+  top: 201px;
+  position: fixed;
+  z-index: 20;
+  writing-mode: vertical-rl;
+  translate: 967px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-size: 28px;
+  color: #2ba731;
+  opacity: 50%;
+  cursor: default;
+}
+
+/* -----------------media screenヘッダー-------------------------- */
+@media screen and (max-width: 520px) {
+  header {
+    position: relative;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .top h1 img {
+    position: absolute;
+    width: 140px;
+  }
+  img.topview {
+    position: absolute;
+    top: 0px;
+    z-index: -5;
+    width: 390px;
+    height: 200px;
+  }
+
+  .sp-telnumber p {
+    color: #fff;
+    border-top-right-radius: 2px;
+    opacity: 83%;
+    margin-top: 78px;
+    background: linear-gradient(to bottom, #8dc21f, #008742);
+    width: 180px;
+    padding: 6px 10px 12px 0;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  .sp-telnumber p:before {
+    content: url(../images/sp-telicon_03.png);
+    padding: 10px;
+    position: relative;
+    top: 6px;
+  }
+  .sp-catchcopy p {
+    position: absolute;
+    top: 205px;
+    position: fixed;
+    z-index: 20;
+    writing-mode: vertical-rl;
+    translate: 365px;
+    font-family: ヒラギノ丸ゴ ProN W4;
+    font-size: 20px;
+    color: #168316;
+    opacity: 28%;
+    cursor: default;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .sp-telnumber {
+    display: none;
+  }
+  .sp-catchcopy {
+    display: none;
+  }
+}
+
+header {
+  width: 100%;
+}
+header .headerInner {
+  padding: 20px;
+}
+header .headerInner .openbtn {
+  position: fixed;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: none;
+  background-color: yellowgreen;
+}
+@media screen and (max-width: 800px) {
+  header .headerInner .openbtn {
+    display: block;
+  }
+}
+header .headerInner .openbtn span {
+  display: inline-block;
+  transition: all 0.4s;
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #000;
+  width: 45%;
+}
+header .headerInner .openbtn span:nth-of-type(1) {
+  top: 15px;
+}
+header .headerInner .openbtn span:nth-of-type(2) {
+  top: 23px;
+}
+header .headerInner .openbtn span:nth-of-type(3) {
+  top: 31px;
+}
+header .headerInner .openbtn.active span:nth-of-type(1) {
+  top: 18px;
+  left: 18px;
+  transform: translateY(6px) rotate(-45deg);
+  width: 30%;
+}
+header .headerInner .openbtn.active span:nth-of-type(2) {
+  opacity: 0;
+}
+header .headerInner .openbtn.active span:nth-of-type(3) {
+  top: 30px;
+  left: 18px;
+  transform: translateY(-6px) rotate(45deg);
+  width: 30%;
+}
+@media screen and (max-width: 800px) {
+  header .headerInner .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all 0.6s;
+    background-color: #cacaca;
+    width: 100%;
+    height: 100vh;
+  }
+}
+header .headerInner .nav .navList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  header .headerInner .nav .navList {
+    flex-direction: column;
+    padding: 50px;
+    width: auto;
+  }
+}
+header .headerInner .nav .navList .item {
+  text-align: center;
+  width: 20%;
+}
+@media screen and (max-width: 800px) {
+  header .headerInner .nav .navList .item {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    text-align: left;
+  }
+}
+header .headerInner .nav .navList .item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 19px;
+  line-height: 2.2;
+}
+header .headerInner .nav.active {
+  right: 0;
+  overflow: hidden;
+}
+
+/* ---------------フッター--------------------------------------- */
+
+footer {
+  background-color: #e3ffd7;
+  height: 410px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.flex-container .scrollbtn p {
+  position: absolute;
+  top: 320px;
+  left: 947px;
+  font-size: 24px;
+  color: #fff;
+  transform: rotate(270deg);
+  padding: 11px 13.9px;
+  background: linear-gradient(to bottom, #8dc21f, #008742);
+  border-radius: 50%;
+  opacity: 90%;
+}
+
+.flex-container .right {
+  margin-top: 12px;
+}
+.flex-container .left {
+  margin-top: 60px;
+  margin-right: 20px;
+}
+.flex-container2 {
+  display: flex;
+  column-gap: 50px;
+  margin: 30px 60px 0 22px;
+}
+.flex-item img {
+  margin: 12px 0;
+}
+.flex-container .right img {
+  width: 300px;
+  margin: 12px 70px 0 0;
+}
+
+/* ーーーーサイトマップのテキストーーーー */
+
+.flex-container2 p a {
+  text-decoration: none;
+  color: #000;
+}
+.flex-container2 p {
+  line-height: 32px;
+  font-family: ヒラギノ丸ゴ ProN W4;
+  font-size: 12.5px;
+  margin-right: 15px;
+}
+.flex-container2 .bold {
+  font-size: 17.5px;
+}
+
+.flex-container2 .bold a:before {
+  content: url(../images/greentriangle2_03_03.png);
+  padding-right: 1.3px;
+}
+
+/* ----------------------------------------------------- */
+/* header {
+  width: 100%;
+}
+header .headerInner {
+  padding: 20px;
+}
+header .headerInner .openbtn {
+  position: fixed;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: none;
+  background-color: yellowgreen;
+}
+@media screen and (max-width: 390px) {
+  header .headerInner .openbtn {
+    display: block;
+  }
+}
+header .headerInner .openbtn span {
+  display: inline-block;
+  transition: all 0.4s;
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #000;
+  width: 45%;
+}
+header .headerInner .openbtn span:nth-of-type(1) {
+  top: 15px;
+}
+header .headerInner .openbtn span:nth-of-type(2) {
+  top: 23px;
+}
+header .headerInner .openbtn span:nth-of-type(3) {
+  top: 31px;
+}
+header .headerInner .openbtn.active span:nth-of-type(1) {
+  top: 18px;
+  left: 18px;
+  transform: translateY(6px) rotate(-45deg);
+  width: 30%;
+}
+header .headerInner .openbtn.active span:nth-of-type(2) {
+  opacity: 0;
+}
+header .headerInner .openbtn.active span:nth-of-type(3) {
+  top: 30px;
+  left: 18px;
+  transform: translateY(-6px) rotate(45deg);
+  width: 30%;
+}
+@media screen and (max-width: 390px) {
+  header .headerInner .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all 0.6s;
+    background-color: #cacaca;
+    width: 100%;
+    height: 100vh;
+  }
+}
+header .headerInner .nav .navList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 390px) {
+  header .headerInner .nav .navList {
+    flex-direction: column;
+    padding: 50px;
+    width: auto;
+  }
+}
+header .headerInner .nav .navList .item {
+  text-align: center;
+  width: 20%;
+}
+@media screen and (max-width: 390px) {
+  header .headerInner .nav .navList .item {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    text-align: left;
+  }
+}
+header .headerInner .nav .navList .item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 19px;
+  line-height: 2.2;
+}
+header .headerInner .nav.active {
+  right: 0;
+  overflow: hidden;
+} */
